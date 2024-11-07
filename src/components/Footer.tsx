@@ -3,7 +3,7 @@ import { footerData } from "./constants";
 import Container from "./Container";
 import { FaFacebook, FaGithub, FaInstagramSquare, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-
+ 
 const Footer = () => {
       return (
             <div className="py-8 bg-bgLight">
@@ -25,7 +25,6 @@ const Footer = () => {
                                           </div>
                                     ))
                               }
-
                         </Container>
 
                   </div>

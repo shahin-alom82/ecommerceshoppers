@@ -3,11 +3,15 @@ import { useState } from "react";
 import { IoMdSearch } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
 
+
+
 const SearchInput = () => {
       const [search, setSearch] = useState("")
+
       return (
+
             <div className="w-full hidden  md:block">
-                  <div className="flex items-center  border border-gray-400 py-1.5 rounded-full px-2">
+                  <div  className="flex items-center  border border-gray-400 py-1.5 rounded-full px-2">
                         <input
                               value={search}
                               onChange={(e) => setSearch(e.target.value)}
